@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD208521F65A62500458663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD208511F65A62500458663 /* AppDelegate.swift */; };
+		3BD208541F65A62500458663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD208531F65A62500458663 /* ViewController.swift */; };
+		3BD208571F65A62500458663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD208551F65A62500458663 /* Main.storyboard */; };
+		3BD2085A1F65A62500458663 /* Dyno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BD208581F65A62500458663 /* Dyno.xcdatamodeld */; };
+		3BD2085C1F65A62500458663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2085B1F65A62500458663 /* Assets.xcassets */; };
+		3BD2085F1F65A62500458663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2085D1F65A62500458663 /* LaunchScreen.storyboard */; };
+		3BD2086A1F65A62500458663 /* DynoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD208691F65A62500458663 /* DynoTests.swift */; };
+		3BD208751F65A62500458663 /* DynoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD208741F65A62500458663 /* DynoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD208661F65A62500458663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD208461F65A62500458663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD2084D1F65A62500458663;
+			remoteInfo = Dyno;
+		};
+		3BD208711F65A62500458663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD208461F65A62500458663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD2084D1F65A62500458663;
+			remoteInfo = Dyno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BD2084E1F65A62500458663 /* Dyno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD208511F65A62500458663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BD208531F65A62500458663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BD208561F65A62500458663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BD208591F65A62500458663 /* Dyno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dyno.xcdatamodel; sourceTree = "<group>"; };
+		3BD2085B1F65A62500458663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BD2085E1F65A62500458663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BD208601F65A62500458663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD208651F65A62500458663 /* DynoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD208691F65A62500458663 /* DynoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoTests.swift; sourceTree = "<group>"; };
+		3BD2086B1F65A62500458663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD208701F65A62500458663 /* DynoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD208741F65A62500458663 /* DynoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoUITests.swift; sourceTree = "<group>"; };
+		3BD208761F65A62500458663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD2084B1F65A62500458663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD208621F65A62500458663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2086D1F65A62500458663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD208451F65A62500458663 = {
+			isa = PBXGroup;
+			children = (
+				3BD208501F65A62500458663 /* Dyno */,
+				3BD208681F65A62500458663 /* DynoTests */,
+				3BD208731F65A62500458663 /* DynoUITests */,
+				3BD2084F1F65A62500458663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD2084F1F65A62500458663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2084E1F65A62500458663 /* Dyno.app */,
+				3BD208651F65A62500458663 /* DynoTests.xctest */,
+				3BD208701F65A62500458663 /* DynoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD208501F65A62500458663 /* Dyno */ = {
+			isa = PBXGroup;
+			children = (
+				3BD208511F65A62500458663 /* AppDelegate.swift */,
+				3BD208531F65A62500458663 /* ViewController.swift */,
+				3BD208551F65A62500458663 /* Main.storyboard */,
+				3BD2085B1F65A62500458663 /* Assets.xcassets */,
+				3BD2085D1F65A62500458663 /* LaunchScreen.storyboard */,
+				3BD208601F65A62500458663 /* Info.plist */,
+				3BD208581F65A62500458663 /* Dyno.xcdatamodeld */,
+			);
+			path = Dyno;
+			sourceTree = "<group>";
+		};
+		3BD208681F65A62500458663 /* DynoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD208691F65A62500458663 /* DynoTests.swift */,
+				3BD2086B1F65A62500458663 /* Info.plist */,
+			);
+			path = DynoTests;
+			sourceTree = "<group>";
+		};
+		3BD208731F65A62500458663 /* DynoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD208741F65A62500458663 /* DynoUITests.swift */,
+				3BD208761F65A62500458663 /* Info.plist */,
+			);
+			path = DynoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD2084D1F65A62500458663 /* Dyno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD208791F65A62500458663 /* Build configuration list for PBXNativeTarget "Dyno" */;
+			buildPhases = (
+				3BD2084A1F65A62500458663 /* Sources */,
+				3BD2084B1F65A62500458663 /* Frameworks */,
+				3BD2084C1F65A62500458663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dyno;
+			productName = Dyno;
+			productReference = 3BD2084E1F65A62500458663 /* Dyno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD208641F65A62500458663 /* DynoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD2087C1F65A62500458663 /* Build configuration list for PBXNativeTarget "DynoTests" */;
+			buildPhases = (
+				3BD208611F65A62500458663 /* Sources */,
+				3BD208621F65A62500458663 /* Frameworks */,
+				3BD208631F65A62500458663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD208671F65A62500458663 /* PBXTargetDependency */,
+			);
+			name = DynoTests;
+			productName = DynoTests;
+			productReference = 3BD208651F65A62500458663 /* DynoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BD2086F1F65A62500458663 /* DynoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD2087F1F65A62500458663 /* Build configuration list for PBXNativeTarget "DynoUITests" */;
+			buildPhases = (
+				3BD2086C1F65A62500458663 /* Sources */,
+				3BD2086D1F65A62500458663 /* Frameworks */,
+				3BD2086E1F65A62500458663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD208721F65A62500458663 /* PBXTargetDependency */,
+			);
+			name = DynoUITests;
+			productName = DynoUITests;
+			productReference = 3BD208701F65A62500458663 /* DynoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD208461F65A62500458663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Laura Chen";
+				TargetAttributes = {
+					3BD2084D1F65A62500458663 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3BD208641F65A62500458663 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3BD2084D1F65A62500458663;
+					};
+					3BD2086F1F65A62500458663 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3BD2084D1F65A62500458663;
+					};
+				};
+			};
+			buildConfigurationList = 3BD208491F65A62500458663 /* Build configuration list for PBXProject "Dyno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD208451F65A62500458663;
+			productRefGroup = 3BD2084F1F65A62500458663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD2084D1F65A62500458663 /* Dyno */,
+				3BD208641F65A62500458663 /* DynoTests */,
+				3BD2086F1F65A62500458663 /* DynoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD2084C1F65A62500458663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2085F1F65A62500458663 /* LaunchScreen.storyboard in Resources */,
+				3BD2085C1F65A62500458663 /* Assets.xcassets in Resources */,
+				3BD208571F65A62500458663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD208631F65A62500458663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2086E1F65A62500458663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD2084A1F65A62500458663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD208541F65A62500458663 /* ViewController.swift in Sources */,
+				3BD2085A1F65A62500458663 /* Dyno.xcdatamodeld in Sources */,
+				3BD208521F65A62500458663 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD208611F65A62500458663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2086A1F65A62500458663 /* DynoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2086C1F65A62500458663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD208751F65A62500458663 /* DynoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD208671F65A62500458663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD2084D1F65A62500458663 /* Dyno */;
+			targetProxy = 3BD208661F65A62500458663 /* PBXContainerItemProxy */;
+		};
+		3BD208721F65A62500458663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD2084D1F65A62500458663 /* Dyno */;
+			targetProxy = 3BD208711F65A62500458663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD208551F65A62500458663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD208561F65A62500458663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BD2085D1F65A62500458663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD2085E1F65A62500458663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD208771F65A62500458663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD208781F65A62500458663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD2087A1F65A62500458663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dyno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Dyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD2087B1F65A62500458663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dyno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Dyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BD2087D1F65A62500458663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyno.app/Dyno";
+			};
+			name = Debug;
+		};
+		3BD2087E1F65A62500458663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyno.app/Dyno";
+			};
+			name = Release;
+		};
+		3BD208801F65A62500458663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DynoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dyno;
+			};
+			name = Debug;
+		};
+		3BD208811F65A62500458663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DynoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dyno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD208491F65A62500458663 /* Build configuration list for PBXProject "Dyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD208771F65A62500458663 /* Debug */,
+				3BD208781F65A62500458663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD208791F65A62500458663 /* Build configuration list for PBXNativeTarget "Dyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD2087A1F65A62500458663 /* Debug */,
+				3BD2087B1F65A62500458663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BD2087C1F65A62500458663 /* Build configuration list for PBXNativeTarget "DynoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD2087D1F65A62500458663 /* Debug */,
+				3BD2087E1F65A62500458663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BD2087F1F65A62500458663 /* Build configuration list for PBXNativeTarget "DynoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD208801F65A62500458663 /* Debug */,
+				3BD208811F65A62500458663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BD208581F65A62500458663 /* Dyno.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BD208591F65A62500458663 /* Dyno.xcdatamodel */,
+			);
+			currentVersion = 3BD208591F65A62500458663 /* Dyno.xcdatamodel */;
+			path = Dyno.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BD208461F65A62500458663 /* Project object */;
+}
