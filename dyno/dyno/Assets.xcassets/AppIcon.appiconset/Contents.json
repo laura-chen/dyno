@@ -3,13 +3,13 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "dynologo40x40.png",
+      "filename" : "appicon40x40.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "dynologo60x60.png",
+      "filename" : "appicon60x60.jpeg",
       "scale" : "3x"
     },
     {
@@ -33,15 +33,13 @@
       "scale" : "3x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "dynologo120x120.png",
+      "size" : "60x60",
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "dynologo120x120-1.png",
+      "size" : "60x60",
       "scale" : "3x"
     },
     {
