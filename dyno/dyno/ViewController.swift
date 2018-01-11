@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func registerButton(_ sender: Any) {
+        performSegue(withIdentifier: "registerSegue", sender: self)
+    }
+    
+    @IBAction func loginButton(_ sender: Any) {
+        performSegue(withIdentifier: "loginSegue", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
