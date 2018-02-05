@@ -1,0 +1,6 @@
+framework module Pods_dyno {
+  umbrella header "Pods-dyno-umbrella.h"
+
+  export *
+  module * { export * }
+}

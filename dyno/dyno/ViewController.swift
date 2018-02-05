@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class ViewController: UIViewController {
     @IBAction func registerButton(_ sender: Any) {
@@ -24,6 +25,12 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func configureDatabase() {
+        // Define and create a reference to Firebase Realtime Database.
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
     }
 
 
