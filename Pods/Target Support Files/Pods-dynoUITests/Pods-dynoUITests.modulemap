@@ -1,6 +1,0 @@
-framework module Pods_dynoUITests {
-  umbrella header "Pods-dynoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

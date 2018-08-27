@@ -1,6 +1,0 @@
-framework module Pods_dynoTests {
-  umbrella header "Pods-dynoTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

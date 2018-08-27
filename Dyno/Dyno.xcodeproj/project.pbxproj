@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B83608D2133A713005383A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B83608C2133A713005383A9 /* AppDelegate.swift */; };
+		3B83608F2133A713005383A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B83608E2133A713005383A9 /* ViewController.swift */; };
+		3B8360922133A713005383A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8360902133A713005383A9 /* Main.storyboard */; };
+		3B8360952133A713005383A9 /* Dyno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B8360932133A713005383A9 /* Dyno.xcdatamodeld */; };
+		3B8360972133A71F005383A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8360962133A71F005383A9 /* Assets.xcassets */; };
+		3B83609A2133A71F005383A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8360982133A71F005383A9 /* LaunchScreen.storyboard */; };
+		3B8360A52133A720005383A9 /* DynoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8360A42133A720005383A9 /* DynoTests.swift */; };
+		3B8360B02133A720005383A9 /* DynoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8360AF2133A720005383A9 /* DynoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8360A12133A720005383A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8360812133A713005383A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8360882133A713005383A9;
+			remoteInfo = Dyno;
+		};
+		3B8360AC2133A720005383A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8360812133A713005383A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8360882133A713005383A9;
+			remoteInfo = Dyno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B8360892133A713005383A9 /* Dyno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B83608C2133A713005383A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B83608E2133A713005383A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B8360912133A713005383A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8360942133A713005383A9 /* Dyno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dyno.xcdatamodel; sourceTree = "<group>"; };
+		3B8360962133A71F005383A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8360992133A71F005383A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B83609B2133A71F005383A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8360A02133A720005383A9 /* DynoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8360A42133A720005383A9 /* DynoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoTests.swift; sourceTree = "<group>"; };
+		3B8360A62133A720005383A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8360AB2133A720005383A9 /* DynoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8360AF2133A720005383A9 /* DynoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoUITests.swift; sourceTree = "<group>"; };
+		3B8360B12133A720005383A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8360862133A713005383A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B83609D2133A720005383A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8360A82133A720005383A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8360802133A713005383A9 = {
+			isa = PBXGroup;
+			children = (
+				3B83608B2133A713005383A9 /* Dyno */,
+				3B8360A32133A720005383A9 /* DynoTests */,
+				3B8360AE2133A720005383A9 /* DynoUITests */,
+				3B83608A2133A713005383A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B83608A2133A713005383A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8360892133A713005383A9 /* Dyno.app */,
+				3B8360A02133A720005383A9 /* DynoTests.xctest */,
+				3B8360AB2133A720005383A9 /* DynoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B83608B2133A713005383A9 /* Dyno */ = {
+			isa = PBXGroup;
+			children = (
+				3B83608C2133A713005383A9 /* AppDelegate.swift */,
+				3B83608E2133A713005383A9 /* ViewController.swift */,
+				3B8360902133A713005383A9 /* Main.storyboard */,
+				3B8360962133A71F005383A9 /* Assets.xcassets */,
+				3B8360982133A71F005383A9 /* LaunchScreen.storyboard */,
+				3B83609B2133A71F005383A9 /* Info.plist */,
+				3B8360932133A713005383A9 /* Dyno.xcdatamodeld */,
+			);
+			path = Dyno;
+			sourceTree = "<group>";
+		};
+		3B8360A32133A720005383A9 /* DynoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8360A42133A720005383A9 /* DynoTests.swift */,
+				3B8360A62133A720005383A9 /* Info.plist */,
+			);
+			path = DynoTests;
+			sourceTree = "<group>";
+		};
+		3B8360AE2133A720005383A9 /* DynoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8360AF2133A720005383A9 /* DynoUITests.swift */,
+				3B8360B12133A720005383A9 /* Info.plist */,
+			);
+			path = DynoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8360882133A713005383A9 /* Dyno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8360B42133A720005383A9 /* Build configuration list for PBXNativeTarget "Dyno" */;
+			buildPhases = (
+				3B8360852133A713005383A9 /* Sources */,
+				3B8360862133A713005383A9 /* Frameworks */,
+				3B8360872133A713005383A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dyno;
+			productName = Dyno;
+			productReference = 3B8360892133A713005383A9 /* Dyno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B83609F2133A720005383A9 /* DynoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8360B72133A720005383A9 /* Build configuration list for PBXNativeTarget "DynoTests" */;
+			buildPhases = (
+				3B83609C2133A720005383A9 /* Sources */,
+				3B83609D2133A720005383A9 /* Frameworks */,
+				3B83609E2133A720005383A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8360A22133A720005383A9 /* PBXTargetDependency */,
+			);
+			name = DynoTests;
+			productName = DynoTests;
+			productReference = 3B8360A02133A720005383A9 /* DynoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B8360AA2133A720005383A9 /* DynoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8360BA2133A720005383A9 /* Build configuration list for PBXNativeTarget "DynoUITests" */;
+			buildPhases = (
+				3B8360A72133A720005383A9 /* Sources */,
+				3B8360A82133A720005383A9 /* Frameworks */,
+				3B8360A92133A720005383A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8360AD2133A720005383A9 /* PBXTargetDependency */,
+			);
+			name = DynoUITests;
+			productName = DynoUITests;
+			productReference = 3B8360AB2133A720005383A9 /* DynoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8360812133A713005383A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Laura Chen";
+				TargetAttributes = {
+					3B8360882133A713005383A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3B83609F2133A720005383A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3B8360882133A713005383A9;
+					};
+					3B8360AA2133A720005383A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3B8360882133A713005383A9;
+					};
+				};
+			};
+			buildConfigurationList = 3B8360842133A713005383A9 /* Build configuration list for PBXProject "Dyno" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B8360802133A713005383A9;
+			productRefGroup = 3B83608A2133A713005383A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8360882133A713005383A9 /* Dyno */,
+				3B83609F2133A720005383A9 /* DynoTests */,
+				3B8360AA2133A720005383A9 /* DynoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8360872133A713005383A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B83609A2133A71F005383A9 /* LaunchScreen.storyboard in Resources */,
+				3B8360972133A71F005383A9 /* Assets.xcassets in Resources */,
+				3B8360922133A713005383A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B83609E2133A720005383A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8360A92133A720005383A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8360852133A713005383A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B83608F2133A713005383A9 /* ViewController.swift in Sources */,
+				3B8360952133A713005383A9 /* Dyno.xcdatamodeld in Sources */,
+				3B83608D2133A713005383A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B83609C2133A720005383A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8360A52133A720005383A9 /* DynoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8360A72133A720005383A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8360B02133A720005383A9 /* DynoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8360A22133A720005383A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8360882133A713005383A9 /* Dyno */;
+			targetProxy = 3B8360A12133A720005383A9 /* PBXContainerItemProxy */;
+		};
+		3B8360AD2133A720005383A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8360882133A713005383A9 /* Dyno */;
+			targetProxy = 3B8360AC2133A720005383A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B8360902133A713005383A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8360912133A713005383A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B8360982133A71F005383A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8360992133A71F005383A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B8360B22133A720005383A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B8360B32133A720005383A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8360B52133A720005383A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59673V9NBB;
+				INFOPLIST_FILE = Dyno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Dyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B8360B62133A720005383A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59673V9NBB;
+				INFOPLIST_FILE = Dyno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Dyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B8360B82133A720005383A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59673V9NBB;
+				INFOPLIST_FILE = DynoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyno.app/Dyno";
+			};
+			name = Debug;
+		};
+		3B8360B92133A720005383A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59673V9NBB;
+				INFOPLIST_FILE = DynoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyno.app/Dyno";
+			};
+			name = Release;
+		};
+		3B8360BB2133A720005383A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59673V9NBB;
+				INFOPLIST_FILE = DynoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dyno;
+			};
+			name = Debug;
+		};
+		3B8360BC2133A720005383A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59673V9NBB;
+				INFOPLIST_FILE = DynoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DynoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dyno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8360842133A713005383A9 /* Build configuration list for PBXProject "Dyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8360B22133A720005383A9 /* Debug */,
+				3B8360B32133A720005383A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8360B42133A720005383A9 /* Build configuration list for PBXNativeTarget "Dyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8360B52133A720005383A9 /* Debug */,
+				3B8360B62133A720005383A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8360B72133A720005383A9 /* Build configuration list for PBXNativeTarget "DynoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8360B82133A720005383A9 /* Debug */,
+				3B8360B92133A720005383A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8360BA2133A720005383A9 /* Build configuration list for PBXNativeTarget "DynoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8360BB2133A720005383A9 /* Debug */,
+				3B8360BC2133A720005383A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B8360932133A713005383A9 /* Dyno.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B8360942133A713005383A9 /* Dyno.xcdatamodel */,
+			);
+			currentVersion = 3B8360942133A713005383A9 /* Dyno.xcdatamodel */;
+			path = Dyno.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B8360812133A713005383A9 /* Project object */;
+}
